@@ -1,0 +1,53 @@
+.home {
+  text-align: center;
+}
+
+.home div {
+  width: 500px;
+  height: 600px;
+
+}
+
+img {
+  width: 180px;
+  height: 200px;
+  display: inline-block !important;
+}
+
+.font {
+  font-size: 45px;
+  color: white;
+}
+.font2 {
+  font-size: 16px;
+  color: white;
+}
+input,
+select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: 10px !important;
+  width: 400px;
+}
+
+select,
+input:focus {
+  outline: none;
+ }
+select,input::placeholder {
+  color: white !important;
+  opacity: 1;
+}
+
+.custom {
+  width: 150px !important;
+}
+
+.option {
+  color: black;
+}
