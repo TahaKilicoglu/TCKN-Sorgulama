@@ -22,10 +22,7 @@ const Home = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = "http://192.168.152.127/logTakip/ActiveMqc/kps"; 
-    // Url bölümüne https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL adresi yazıldığında 
-    // CORS hatası alındığı için ve bu hata frontend tarafında giderilemediğinden 
-    // backend tarafından random boolean değer dönen bir kod yazılarak modal çalıştırılmıştır. 
+    const url = "https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL";
     axios({
       method: "post",
       url,
